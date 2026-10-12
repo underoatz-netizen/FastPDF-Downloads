@@ -4,6 +4,8 @@ FastPDF is a Windows PDF utility from **OZ Lab** for opening, reading,
 searching, presenting, printing and capturing PDFs, and for converting PDFs to
 PNG and images to PDF.
 
+[ไทย](README.th.md)
+
 > **Release preparation — no downloadable release is available yet.**
 > This public repository does not currently provide an installer, package or
 > download. See the [installation status](docs/installation.md).
