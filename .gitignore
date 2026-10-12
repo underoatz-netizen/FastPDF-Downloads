@@ -1,0 +1,22 @@
+# Operating system cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE local state
+.idea/
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Local logs, temporary and backup files
+*.log
+*.tmp
+*.bak
+logs/
+
+# Binaries and packaged archives must never be committed here
+*.exe
+*.msi
+*.zip
