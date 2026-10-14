@@ -34,12 +34,12 @@ There is **no downloadable release at this time**. No installer, package,
 archive or binary is published in this repository. Files elsewhere claiming to
 be FastPDF should not be trusted.
 
-## Documentation
+## Documentation & support
 
 - [Installation status](docs/installation.md)
 - [User guide](docs/user-guide.md)
 - [Changelog](CHANGELOG.md)
-- [Support](SUPPORT.md)
+- [Support & donations](SUPPORT.md)
 
 ## Help and feedback
 
