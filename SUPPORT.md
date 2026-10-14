@@ -17,7 +17,7 @@ or other sensitive information in an issue.
 
 ## Donations and supporting OZ Lab
 
-FastPDF is completely free software with no paid features, subscriptions, or donation nag screens.
+FastPDF is freeware provided at no cost, with all features fully available and no paid tiers, subscriptions, or donation nag screens.
 
 If you wish to voluntarily support OZ Lab's ongoing development and hosting, you can contribute via:
 - **International:** [OZ Lab on Ko-fi](https://ko-fi.com/ozlab)
