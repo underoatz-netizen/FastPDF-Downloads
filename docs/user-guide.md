@@ -1,8 +1,8 @@
 # FastPDF user guide
 
 A concise reference for FastPDF on Windows. It reflects the application's
-implemented controls. A downloadable build is not available yet; see the
-[installation status](installation.md).
+implemented controls in FastPDF 0.3.2. For setup details, see the
+[installation guide](installation.md).
 
 ## Opening a document
 

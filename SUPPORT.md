@@ -2,9 +2,9 @@
 
 ## Status
 
-FastPDF is in release preparation. There is no downloadable release at this
-time, so support is limited to questions and reports about the project and its
-documentation.
+FastPDF 0.3.2 is published as a 64-bit Windows release. Support is provided on
+a best-effort basis for questions, feedback, and issue reports about the
+application and its documentation.
 
 ## Reporting a problem or requesting a feature
 
@@ -27,5 +27,5 @@ All donations are entirely voluntary. This repository does not directly process 
 
 ## What this page is not
 
-This page is not a support contract and makes no promise of response times,
-fixes, features or release dates.
+This page is not a commercial support contract and makes no promise of response
+times, fixes, features or release dates.
