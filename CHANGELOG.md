@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.4.0] - 2026-10-24
+
+Release of FastPDF for Windows x64 introducing Go to Page navigation and render pipeline stability improvements.
+
+### Release assets
+
+- **Installer (Setup):** `FastPDF-0.4.0-win-x64-Setup.exe`
+  `SHA-256: 460199db7adec1013786b0ad9d9daf38ee795a79ee599778a5c59d93c952bd45`
+- **Portable package:** `FastPDF-0.4.0-win-x64.zip`
+  `SHA-256: ed1a16ef1dc2bf404fcbc921856f41a191e2b5a6bec1d0e1726d9a922ddccbb5`
+- **Checksums:** `SHA256SUMS`
+  `SHA-256: ace327bd80db6a17549a28c6347735d957fed7905d02f78d2722f3a7f3b6c0f7`
+- **Release page:** [FastPDF 0.4.0 on GitHub Releases](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.4.0)
+
+### New features & improvements
+
+- **Go to Page (`Ctrl+G`):** Direct navigation dialog allowing instant jumps to any page in the document.
+- **Input validation:** Robust 1-based page number parsing and validation with visual error feedback for out-of-range or non-numeric inputs.
+- **Cancellation safety:** Viewport render cancellation tokens ensure superseded page renders are cleanly aborted during rapid scrolling or page jumping.
+- **Render stability:** Improved background tile rendering resilience and responsiveness during rapid navigation.
+
+### Notes
+
+- Binaries and installer packages are unsigned. Windows SmartScreen may show an unknown publisher warning.
+- Source code is not included in release packages.
+- Download integrity should be verified using SHA256 checksums before installation or execution.
+
 ## [0.3.2] - 2026-10-14
 
 First public release of FastPDF for Windows x64.

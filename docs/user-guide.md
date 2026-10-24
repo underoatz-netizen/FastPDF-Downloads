@@ -1,7 +1,7 @@
 # FastPDF user guide
 
 A concise reference for FastPDF on Windows. It reflects the application's
-implemented controls in FastPDF 0.3.2. For setup details, see the
+implemented controls in FastPDF 0.4.0. For setup details, see the
 [installation guide](installation.md).
 
 ## Opening a document
@@ -14,6 +14,7 @@ implemented controls in FastPDF 0.3.2. For setup details, see the
 ## Viewing and navigation
 
 - **Continuous page layout** with a vertical scrollbar.
+- **Go to Page (`Ctrl+G`)** — jump directly to any page number by prompt.
 - **Mouse wheel** — scroll the document.
 - **Ctrl + mouse wheel** — zoom in or out, centred on the cursor.
 - **Ctrl+1** — 100% zoom. **Ctrl+2** — fit width. **Ctrl+0** — fit page.

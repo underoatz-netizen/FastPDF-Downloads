@@ -6,28 +6,28 @@ PNG and images to PDF.
 
 [ไทย](README.th.md)
 
-FastPDF 0.3.2 is available for 64-bit Windows. You can download the installer or portable package directly from GitHub Releases.
+FastPDF 0.4.0 is available for 64-bit Windows. You can download the installer or portable package directly from GitHub Releases.
 
-## Downloads (v0.3.2)
+## Downloads (v0.4.0)
 
-- **Release page:** [FastPDF 0.3.2 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.3.2)
-- **Installer (Setup):** [FastPDF-0.3.2-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.3.2/FastPDF-0.3.2-win-x64-Setup.exe)
-  `SHA-256: f3aea2ac8a683eddbcbe74f25444b3004103f13c31851c962fe114b5fd13b74e`
-- **Portable package:** [FastPDF-0.3.2-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.3.2/FastPDF-0.3.2-win-x64.zip)
-  `SHA-256: aeaf6af1bcb823325c461faabb6a9fc5a6142c9058a265988a5f06738cd8e51b`
-- **Checksums:** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.3.2/SHA256SUMS)
-  `SHA-256: edba88446e2b03e701db895848163f514912e536532d2d90db55d0c34eee2552`
+- **Release page:** [FastPDF 0.4.0 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.4.0)
+- **Installer (Setup):** [FastPDF-0.4.0-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.4.0/FastPDF-0.4.0-win-x64-Setup.exe)
+  `SHA-256: 460199db7adec1013786b0ad9d9daf38ee795a79ee599778a5c59d93c952bd45`
+- **Portable package:** [FastPDF-0.4.0-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.4.0/FastPDF-0.4.0-win-x64.zip)
+  `SHA-256: ed1a16ef1dc2bf404fcbc921856f41a191e2b5a6bec1d0e1726d9a922ddccbb5`
+- **Checksums:** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.4.0/SHA256SUMS)
+  `SHA-256: ace327bd80db6a17549a28c6347735d957fed7905d02f78d2722f3a7f3b6c0f7`
 
 > **Note on security & SmartScreen:** Binaries and installer packages in this release are unsigned. When opening the downloaded file, Windows Defender SmartScreen may display a prompt ("Windows protected your PC"). Click **More info** and then **Run anyway** if you choose to proceed. Always verify file checksums with `Get-FileHash` before running.
 
 ## What FastPDF does
 
-FastPDF is a native Windows application. Key capabilities in v0.3.2:
+FastPDF is a native Windows application. Key capabilities in v0.4.0:
 
 - **Open and view** — open a PDF, drag a single file onto the window, or pass a
   file path on the command line.
 - **Read and navigate** — continuous page layout with zoom, fit width, fit page,
-  and a full-screen presentation mode.
+  Go to Page (`Ctrl+G`), and a full-screen presentation mode.
 - **Search** — in-document text search.
 - **Print** — print the current document.
 - **Convert** — PDF to PNG and image to PDF.
@@ -39,7 +39,7 @@ FastPDF is a native Windows application. Key capabilities in v0.3.2:
 To verify download integrity, you can compare the SHA-256 hash in PowerShell:
 
 ```powershell
-Get-FileHash FastPDF-0.3.2-win-x64-Setup.exe -Algorithm SHA256
+Get-FileHash FastPDF-0.4.0-win-x64-Setup.exe -Algorithm SHA256
 ```
 
 Compare the output hash with the published values listed above or in `SHA256SUMS`.
