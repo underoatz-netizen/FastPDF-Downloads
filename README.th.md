@@ -1,44 +1,75 @@
-# FastPDF สำหรับ Windows
+# PikaPDF สำหรับ Windows
 
-FastPDF เป็นเครื่องมือ PDF สำหรับ Windows จาก **OZ Lab** สำหรับเปิด อ่าน ค้นหา
-นำเสนอ พิมพ์ และจับภาพ PDF และสำหรับแปลง PDF เป็น PNG และแปลงภาพเป็น PDF
+PikaPDF (เดิมชื่อ **FastPDF** ถึงรุ่น v0.4.1) เป็นเครื่องมือ PDF สำหรับ Windows
+จาก **OZ Lab** สำหรับเปิด อ่าน ค้นหา นำเสนอ พิมพ์ และจับภาพ PDF และสำหรับแปลง
+PDF เป็น PNG และแปลงภาพเป็น PDF
 
 [English](README.md)
 
-FastPDF 0.4.0 พร้อมให้ดาวน์โหลดสำหรับ Windows 64-bit คุณสามารถดาวน์โหลดตัวติดตั้งหรือแพ็กเกจแบบพกพาได้โดยตรงจาก GitHub Releases
+PikaPDF 0.5.0 (เผยแพร่ 2026-11-18) พร้อมให้ดาวน์โหลดสำหรับ Windows 64-bit คุณสามารถดาวน์โหลดตัวติดตั้งหรือแพ็กเกจแบบพกพาได้โดยตรงจาก GitHub Releases
 
-## ดาวน์โหลด (v0.4.0)
+## ดาวน์โหลด (v0.5.0)
 
-- **หน้ารุ่นเผยแพร่:** [FastPDF 0.4.0 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.4.0)
-- **ตัวติดตั้ง (Setup):** [FastPDF-0.4.0-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.4.0/FastPDF-0.4.0-win-x64-Setup.exe)
-  `SHA-256: 460199db7adec1013786b0ad9d9daf38ee795a79ee599778a5c59d93c952bd45`
-- **แพ็กเกจแบบพกพา (Portable zip):** [FastPDF-0.4.0-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.4.0/FastPDF-0.4.0-win-x64.zip)
-  `SHA-256: ed1a16ef1dc2bf404fcbc921856f41a191e2b5a6bec1d0e1726d9a922ddccbb5`
-- **ไฟล์ผลรวมตรวจสอบ (Checksums):** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.4.0/SHA256SUMS)
-  `SHA-256: ace327bd80db6a17549a28c6347735d957fed7905d02f78d2722f3a7f3b6c0f7`
+- **หน้ารุ่นเผยแพร่:** [PikaPDF 0.5.0 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.5.0)
+- **ตัวติดตั้ง (Setup, ประมาณ 5.4 MB):** [PikaPDF-0.5.0-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/PikaPDF-0.5.0-win-x64-Setup.exe)
+  `SHA-256: 29c09b1347f2f20a96ad081425c22cda20d6880c5a076833090dddcd649ee1b9`
+- **แพ็กเกจแบบพกพา (Portable zip, ประมาณ 4.1 MB):** [PikaPDF-0.5.0-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/PikaPDF-0.5.0-win-x64.zip)
+  `SHA-256: 62494f6913657beaec8c33f7a81c710e041a1c1ee39390105203b6f561dc9dbb`
+- **ไฟล์ผลรวมตรวจสอบ (Checksums):** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/SHA256SUMS)
+  `SHA-256: 0901f99ccfaa3910af77c9e0d272827737a4f696e15aed38b3909e01f0ae0710`
 
 > **คำแนะนำความปลอดภัยและ SmartScreen:** ไฟล์ไบนารีและตัวติดตั้งในรุ่นนี้ยังไม่ได้ลงนามดิจิทัล (unsigned) เมื่อเปิดไฟล์ดาวน์โหลด Windows Defender SmartScreen อาจแสดงหน้าต่างแจ้งเตือน ("Windows protected your PC") ท่านสามารถคลิก **More info** แล้วเลือก **Run anyway** หากต้องการดำเนินการต่อ โปรดตรวจสอบผลรวมแฮชด้วย `Get-FileHash` ก่อนเปิดใช้งานเสมอ
 
-## FastPDF ทำอะไรได้บ้าง
+## PikaPDF ทำอะไรได้บ้าง
 
-FastPDF เป็นแอปพลิเคชัน Windows แบบเนทีฟ ความสามารถหลักในรุ่น v0.4.0:
+PikaPDF เป็นแอปพลิเคชัน Windows แบบเนทีฟ ความสามารถหลักในรุ่น v0.5.0:
 
 - **เปิดและดู** — เปิด PDF, ลากไฟล์เดียวมาวางบนหน้าต่าง, หรือส่งพาธของไฟล์ผ่าน
   command line
+- **แถบคำสั่ง (Command bar)** — แถบคำสั่งแถวเดียวที่ปรับตามความกว้างหน้าต่าง
+  พร้อมไอคอน Lucide และเมนู **More commands** สำหรับคำสั่งที่เกินพื้นที่
 - **อ่านและนำทาง** — เลย์เอาต์หน้าต่อเนื่องพร้อมซูม พอดีความกว้าง พอดีหน้า
-  ไปที่หน้า (`Ctrl+G`) และโหมดนำเสนอแบบเต็มหน้าจอ
-- **ค้นหา** — ค้นหาข้อความภายในเอกสาร
-- **พิมพ์** — พิมพ์เอกสารปัจจุบัน
-- **แปลง** — PDF เป็น PNG และภาพเป็น PDF
-- **จับภาพหน้าจอ** — เลือกพื้นที่บนหน้าแล้วคัดลอกไปยังคลิปบอร์ด
-- **หมุนหน้า** — หมุนหน้าปัจจุบันและบันทึกสำเนาที่หมุนแล้ว
+  ไปที่หน้า (`Ctrl+G`) ค้นหา (`Ctrl+F`) หมุนหน้า และโหมดนำเสนอแบบเต็มหน้าจอ (`F11`)
+- **แถบด้านข้าง Thumbnails & Bookmarks** (`Ctrl+B`) — รูปย่อหน้าและบุ๊กมาร์กของ
+  เอกสารในแถบเดียว การกระทำบุ๊กมาร์กภายนอกที่ไม่รองรับจะแสดงป้ายอย่างปลอดภัย
+  และจะไม่ถูกเรียกใช้งาน
+- **Draw และ Highlight** — วาดลายเส้นอิสระด้วยสีหลายสีและความหนา 3 ระดับ
+  พร้อมไฮไลต์ข้อความที่เลือกได้ซึ่งฝังอยู่ใน PDF และมี Undo/Redo
+  (`Ctrl+Z` / `Ctrl+Y`)
+- **Save a Copy และการป้องกันการสูญหายของงาน** — บันทึกเป็นสำเนาใหม่
+  โดยไม่เขียนทับไฟล์ต้นฉบับหรือไฟล์ที่มีอยู่ และมีการแจ้งเตือนก่อนการกระทำที่
+  อาจทำให้งานที่ยังไม่บันทึกหาย (ปิดเอกสาร เปิดเอกสาร พิมพ์ และส่งออก PNG)
+- **หน้าต่างพิมพ์ที่ปรับปรุง** — 1–6 หน้าต่อแผ่น, ตัวอย่างก่อนพิมพ์,
+  สี/ขาวดำ, พิมพ์สองหน้า, คุณภาพ Fast/Medium/Detailed, การเรียงแบบ By set/By page
+  และแถบความคืบหน้าพร้อมยกเลิก
+- **แปลงไฟล์** — PDF เป็น PNG และภาพเป็น PDF
+- **จับภาพหน้าจอ** — เลือกพื้นที่บนหน้าแล้วคัดลอกไปยังคลิปบอร์ด (`Ctrl+S`)
+- **วินิจฉัยและอัปเดต** — แผงวินิจฉัย (`Ctrl+D`) และคำสั่งตรวจสอบอัปเดตด้วยตนเอง
+
+## การอัปเกรดจาก FastPDF
+
+- ไฟล์โปรแกรมภายใน ZIP และโฟลเดอร์ติดตั้งยังคงเป็น **`FastPDF.exe`**
+  (พร้อม `pdfium.dll` และ `licenses/`) ทางลัดเดิมจึงยังใช้งานได้
+- การติดตั้งใหม่จะใช้ `Program Files\PikaPDF` เป็นค่าเริ่มต้น
+- การอัปเกรดทับ FastPDF 0.4.1 จะอัปเกรดในตำแหน่งเดิม ใช้โฟลเดอร์ติดตั้งเดิม
+  และรักษาการตั้งค่าและรายการไฟล์ล่าสุดใน `%LOCALAPPDATA%\FastPDF` ไว้
+
+## ความต้องการของระบบและหมายเหตุ
+
+- Windows 10 หรือ Windows 11 แบบ 64-bit (x64)
+- Microsoft Visual C++ 2015–2022 Redistributable (x64)
+- ไฟล์ไบนารียังไม่ได้ลงนาม SmartScreen อาจแจ้งเตือนเมื่อเปิดครั้งแรก
+- ไม่มี OCR
+- ไม่มีเครื่องมือ Add Text
+- การแก้ไขคำอธิบายประกอบ (annotation) ถูกปิดใช้งานบน PDF ที่ลงนามแล้ว
+  ป้องกันไว้ หรือเข้ารหัส และบนหน้าที่มีคำอธิบายประกอบอยู่แล้ว
 
 ## การตรวจสอบความถูกต้อง (Verification)
 
 ท่านสามารถตรวจสอบความถูกต้องของไฟล์ที่ดาวน์โหลดได้ผ่าน PowerShell:
 
 ```powershell
-Get-FileHash FastPDF-0.4.0-win-x64-Setup.exe -Algorithm SHA256
+Get-FileHash PikaPDF-0.5.0-win-x64-Setup.exe -Algorithm SHA256
 ```
 
 นำค่าแฮชที่ได้ไปเปรียบเทียบกับตารางด้านบนหรือไฟล์ `SHA256SUMS`
@@ -61,5 +92,5 @@ Get-FileHash FastPDF-0.4.0-win-x64-Setup.exe -Algorithm SHA256
 
 ## ลิขสิทธิ์
 
-FastPDF เป็นซอฟต์แวร์ที่เป็นกรรมสิทธิ์ Copyright (c) 2026 OZ Lab สงวนลิขสิทธิ์
-ทั้งหมด ดู [COPYRIGHT.md](COPYRIGHT.md)
+PikaPDF (เดิมชื่อ FastPDF) เป็นซอฟต์แวร์ที่เป็นกรรมสิทธิ์ Copyright (c) 2026 OZ Lab
+สงวนลิขสิทธิ์ทั้งหมด ดู [COPYRIGHT.md](COPYRIGHT.md)
