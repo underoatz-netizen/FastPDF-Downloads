@@ -6,23 +6,30 @@ PDFs, and for converting PDFs to PNG and images to PDF.
 
 [ไทย](README.th.md)
 
-PikaPDF 0.5.0 (released 2026-11-18) is available for 64-bit Windows. You can download the installer or portable package directly from GitHub Releases.
+PikaPDF 0.5.1 (released 2026-11-22) is available for 64-bit Windows. You can download the installer or portable package directly from GitHub Releases.
 
-## Downloads (v0.5.0)
+## Downloads (v0.5.1)
 
-- **Release page:** [PikaPDF 0.5.0 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.5.0)
-- **Installer (Setup, ~5.4 MB):** [PikaPDF-0.5.0-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/PikaPDF-0.5.0-win-x64-Setup.exe)
-  `SHA-256: 29c09b1347f2f20a96ad081425c22cda20d6880c5a076833090dddcd649ee1b9`
-- **Portable package (~4.1 MB):** [PikaPDF-0.5.0-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/PikaPDF-0.5.0-win-x64.zip)
-  `SHA-256: 62494f6913657beaec8c33f7a81c710e041a1c1ee39390105203b6f561dc9dbb`
-- **Checksums:** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/SHA256SUMS)
-  `SHA-256: 0901f99ccfaa3910af77c9e0d272827737a4f696e15aed38b3909e01f0ae0710`
+- **Release page:** [PikaPDF 0.5.1 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.5.1)
+- **Installer (Setup, ~5.4 MB):** [PikaPDF-0.5.1-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/PikaPDF-0.5.1-win-x64-Setup.exe)
+  `SHA-256: 39d7e807a1292d080511be8a4ce9ea06922c9a5fe2f15e0687c290f66fee84da`
+- **Portable package (~4.1 MB):** [PikaPDF-0.5.1-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/PikaPDF-0.5.1-win-x64.zip)
+  `SHA-256: 1b912854c6e833de6a71b6b6567f45760d3ea55438e00416ce51e2c0a49b0a6a`
+- **Checksums:** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/SHA256SUMS)
+  `SHA-256: a21a4bb017fff7ead3523f66c295fb6d5f5bda6d1ef0a5cc17647753cd7470d1`
 
 > **Note on security & SmartScreen:** Binaries and installer packages in this release are unsigned. When opening the downloaded file, Windows Defender SmartScreen may display a prompt ("Windows protected your PC"). Click **More info** and then **Run anyway** if you choose to proceed. Always verify file checksums with `Get-FileHash` before running.
 
 ## What PikaPDF does
 
-PikaPDF is a native Windows application. Key capabilities in v0.5.0:
+PikaPDF is a native Windows application. Key capabilities in v0.5.1:
+
+- **System-Aware Theme** — automatically follows Windows Light/Dark app
+  settings (`AppsUseLightTheme`) and High Contrast mode at startup and live on
+  system theme changes (`WM_SETTINGCHANGE` / `WM_THEMECHANGED`), updating the
+  DWM title bar, Explorer controls, command bar, sidebar, Find panel, and
+  notification toasts without re-rendering cached PDF pages or altering
+  Presentation Mode.
 
 - **Open and view** — open a PDF, drag a single file onto the window, or pass a
   file path on the command line.
@@ -54,9 +61,9 @@ PikaPDF is a native Windows application. Key capabilities in v0.5.0:
 - The executable inside the ZIP and install folder remains **`FastPDF.exe`**
   (alongside `pdfium.dll` and `licenses/`), so existing shortcuts keep working.
 - A fresh install defaults to `Program Files\PikaPDF`.
-- Upgrading over FastPDF 0.4.1 upgrades in place, reuses the existing install
-  directory, and preserves your `%LOCALAPPDATA%\FastPDF` settings and recent
-  files.
+- Upgrading over FastPDF 0.4.1 or PikaPDF 0.5.0 upgrades in place, reuses the
+  existing install directory, and preserves your `%LOCALAPPDATA%\FastPDF`
+  settings and recent files.
 
 ## Requirements and known notes
 
@@ -73,7 +80,7 @@ PikaPDF is a native Windows application. Key capabilities in v0.5.0:
 To verify download integrity, compare the SHA-256 hash in PowerShell:
 
 ```powershell
-Get-FileHash PikaPDF-0.5.0-win-x64-Setup.exe -Algorithm SHA256
+Get-FileHash PikaPDF-0.5.1-win-x64-Setup.exe -Algorithm SHA256
 ```
 
 Compare the output hash with the published values listed above or in `SHA256SUMS`.

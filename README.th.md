@@ -6,23 +6,30 @@ PDF เป็น PNG และแปลงภาพเป็น PDF
 
 [English](README.md)
 
-PikaPDF 0.5.0 (เผยแพร่ 2026-11-18) พร้อมให้ดาวน์โหลดสำหรับ Windows 64-bit คุณสามารถดาวน์โหลดตัวติดตั้งหรือแพ็กเกจแบบพกพาได้โดยตรงจาก GitHub Releases
+PikaPDF 0.5.1 (เผยแพร่ 2026-11-22) พร้อมให้ดาวน์โหลดสำหรับ Windows 64-bit คุณสามารถดาวน์โหลดตัวติดตั้งหรือแพ็กเกจแบบพกพาได้โดยตรงจาก GitHub Releases
 
-## ดาวน์โหลด (v0.5.0)
+## ดาวน์โหลด (v0.5.1)
 
-- **หน้ารุ่นเผยแพร่:** [PikaPDF 0.5.0 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.5.0)
-- **ตัวติดตั้ง (Setup, ประมาณ 5.4 MB):** [PikaPDF-0.5.0-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/PikaPDF-0.5.0-win-x64-Setup.exe)
-  `SHA-256: 29c09b1347f2f20a96ad081425c22cda20d6880c5a076833090dddcd649ee1b9`
-- **แพ็กเกจแบบพกพา (Portable zip, ประมาณ 4.1 MB):** [PikaPDF-0.5.0-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/PikaPDF-0.5.0-win-x64.zip)
-  `SHA-256: 62494f6913657beaec8c33f7a81c710e041a1c1ee39390105203b6f561dc9dbb`
-- **ไฟล์ผลรวมตรวจสอบ (Checksums):** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.0/SHA256SUMS)
-  `SHA-256: 0901f99ccfaa3910af77c9e0d272827737a4f696e15aed38b3909e01f0ae0710`
+- **หน้ารุ่นเผยแพร่:** [PikaPDF 0.5.1 Release](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.5.1)
+- **ตัวติดตั้ง (Setup, ประมาณ 5.4 MB):** [PikaPDF-0.5.1-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/PikaPDF-0.5.1-win-x64-Setup.exe)
+  `SHA-256: 39d7e807a1292d080511be8a4ce9ea06922c9a5fe2f15e0687c290f66fee84da`
+- **แพ็กเกจแบบพกพา (Portable zip, ประมาณ 4.1 MB):** [PikaPDF-0.5.1-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/PikaPDF-0.5.1-win-x64.zip)
+  `SHA-256: 1b912854c6e833de6a71b6b6567f45760d3ea55438e00416ce51e2c0a49b0a6a`
+- **ไฟล์ผลรวมตรวจสอบ (Checksums):** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/SHA256SUMS)
+  `SHA-256: a21a4bb017fff7ead3523f66c295fb6d5f5bda6d1ef0a5cc17647753cd7470d1`
 
 > **คำแนะนำความปลอดภัยและ SmartScreen:** ไฟล์ไบนารีและตัวติดตั้งในรุ่นนี้ยังไม่ได้ลงนามดิจิทัล (unsigned) เมื่อเปิดไฟล์ดาวน์โหลด Windows Defender SmartScreen อาจแสดงหน้าต่างแจ้งเตือน ("Windows protected your PC") ท่านสามารถคลิก **More info** แล้วเลือก **Run anyway** หากต้องการดำเนินการต่อ โปรดตรวจสอบผลรวมแฮชด้วย `Get-FileHash` ก่อนเปิดใช้งานเสมอ
 
 ## PikaPDF ทำอะไรได้บ้าง
 
-PikaPDF เป็นแอปพลิเคชัน Windows แบบเนทีฟ ความสามารถหลักในรุ่น v0.5.0:
+PikaPDF เป็นแอปพลิเคชัน Windows แบบเนทีฟ ความสามารถหลักในรุ่น v0.5.1:
+
+- **ธีมปรับตามระบบ (System-Aware Theme)** — ปรับธีมตามการตั้งค่า Light/Dark
+  ของแอปบน Windows (`AppsUseLightTheme`) และความสว่างหน้าต่าง High Contrast
+  อัตโนมัติตั้งแต่เปิดโปรแกรมและทันทีเมื่อเปลี่ยนธีมระบบ (`WM_SETTINGCHANGE` /
+  `WM_THEMECHANGED`) โดยอัปเดตแถบชื่อเรื่อง DWM, แถบเลื่อน/ตัวควบคุม Explorer,
+  แถบคำสั่ง, แถบด้านข้าง, แผงค้นหา และแถบแจ้งเตือน โดยไม่เรนเดอร์หน้า PDF
+  ที่แคชไว้ใหม่และไม่กระทบโหมดนำเสนอ
 
 - **เปิดและดู** — เปิด PDF, ลากไฟล์เดียวมาวางบนหน้าต่าง, หรือส่งพาธของไฟล์ผ่าน
   command line
@@ -51,7 +58,7 @@ PikaPDF เป็นแอปพลิเคชัน Windows แบบเนท
 - ไฟล์โปรแกรมภายใน ZIP และโฟลเดอร์ติดตั้งยังคงเป็น **`FastPDF.exe`**
   (พร้อม `pdfium.dll` และ `licenses/`) ทางลัดเดิมจึงยังใช้งานได้
 - การติดตั้งใหม่จะใช้ `Program Files\PikaPDF` เป็นค่าเริ่มต้น
-- การอัปเกรดทับ FastPDF 0.4.1 จะอัปเกรดในตำแหน่งเดิม ใช้โฟลเดอร์ติดตั้งเดิม
+- การอัปเกรดทับ FastPDF 0.4.1 หรือ PikaPDF 0.5.0 จะอัปเกรดในตำแหน่งเดิม ใช้โฟลเดอร์ติดตั้งเดิม
   และรักษาการตั้งค่าและรายการไฟล์ล่าสุดใน `%LOCALAPPDATA%\FastPDF` ไว้
 
 ## ความต้องการของระบบและหมายเหตุ
@@ -69,7 +76,7 @@ PikaPDF เป็นแอปพลิเคชัน Windows แบบเนท
 ท่านสามารถตรวจสอบความถูกต้องของไฟล์ที่ดาวน์โหลดได้ผ่าน PowerShell:
 
 ```powershell
-Get-FileHash PikaPDF-0.5.0-win-x64-Setup.exe -Algorithm SHA256
+Get-FileHash PikaPDF-0.5.1-win-x64-Setup.exe -Algorithm SHA256
 ```
 
 นำค่าแฮชที่ได้ไปเปรียบเทียบกับตารางด้านบนหรือไฟล์ `SHA256SUMS`

@@ -20,8 +20,8 @@ PikaPDF includes third-party components and assets:
 Refer to the `licenses/` folder distributed with the application for the
 complete third-party license texts.
 
-<!-- Release metadata: PikaPDF v0.5.0 (2026-11-18)
-     Installer SHA-256: 29c09b1347f2f20a96ad081425c22cda20d6880c5a076833090dddcd649ee1b9
-     Portable SHA-256: 62494f6913657beaec8c33f7a81c710e041a1c1ee39390105203b6f561dc9dbb
-     SHA256SUMS SHA-256: 0901f99ccfaa3910af77c9e0d272827737a4f696e15aed38b3909e01f0ae0710
+<!-- Release metadata: PikaPDF v0.5.1 (2026-11-22)
+     Installer SHA-256: 39d7e807a1292d080511be8a4ce9ea06922c9a5fe2f15e0687c290f66fee84da
+     Portable SHA-256: 1b912854c6e833de6a71b6b6567f45760d3ea55438e00416ce51e2c0a49b0a6a
+     SHA256SUMS SHA-256: a21a4bb017fff7ead3523f66c295fb6d5f5bda6d1ef0a5cc17647753cd7470d1
 -->

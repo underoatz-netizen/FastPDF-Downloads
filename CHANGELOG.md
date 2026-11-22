@@ -1,5 +1,38 @@
 # PikaPDF (formerly FastPDF) changelog
 
+## 0.5.1 — 2026-11-22
+
+PikaPDF 0.5.1 adds System-Aware Theme support for Windows x64, adapting the application shell automatically to Windows Light, Dark, and High Contrast settings.
+
+### Download links
+
+- **Release page:** [PikaPDF 0.5.1 on GitHub Releases](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/tag/v0.5.1)
+- **Installer (Setup, ~5.4 MB):** [PikaPDF-0.5.1-win-x64-Setup.exe](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/PikaPDF-0.5.1-win-x64-Setup.exe)
+- **Portable package (~4.1 MB):** [PikaPDF-0.5.1-win-x64.zip](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/PikaPDF-0.5.1-win-x64.zip)
+- **Checksums:** [SHA256SUMS](https://github.com/underoatz-netizen/FastPDF-Downloads/releases/download/v0.5.1/SHA256SUMS)
+
+### Release assets
+
+| Asset | File | Size | SHA-256 |
+| --- | --- | --- | --- |
+| Installer (Setup) | `PikaPDF-0.5.1-win-x64-Setup.exe` | ~5.4 MB | `39d7e807a1292d080511be8a4ce9ea06922c9a5fe2f15e0687c290f66fee84da` |
+| Portable package | `PikaPDF-0.5.1-win-x64.zip` | ~4.1 MB | `1b912854c6e833de6a71b6b6567f45760d3ea55438e00416ce51e2c0a49b0a6a` |
+| Checksums | `SHA256SUMS` | — | `a21a4bb017fff7ead3523f66c295fb6d5f5bda6d1ef0a5cc17647753cd7470d1` |
+
+### New features & improvements
+
+- **System-Aware Theme:** automatically adapts to Windows Light/Dark app settings (`AppsUseLightTheme`) and High Contrast window luminance at startup and live on theme changes (`WM_SETTINGCHANGE` / `WM_THEMECHANGED`).
+- **Themed UI surfaces without cache invalidation:** updates the DWM title bar, Explorer scrollbars/controls, single-row command bar, Thumbnails & Bookmarks sidebar, Find panel, and notification toasts without re-rendering cached PDF pages.
+- **Unchanged document & presentation rendering:** preserves PDF page rendering, Presentation Mode black background, search highlights, and annotation brushes.
+
+### Upgrade notes
+
+- Upgrades seamlessly in place over FastPDF 0.4.x and PikaPDF 0.5.0 while keeping `FastPDF.exe` and `%LOCALAPPDATA%\FastPDF` settings and recent files.
+- A fresh install defaults to `Program Files\PikaPDF`.
+- Requires Windows 10 or Windows 11, 64-bit (x64), and the Microsoft Visual C++ 2015–2022 Redistributable (x64).
+- Binaries and installer packages are unsigned. Windows SmartScreen may display an unknown publisher warning.
+- Verify download integrity using the SHA-256 checksums above or in `SHA256SUMS` before installation or execution.
+
 ## 0.5.0 — 2026-11-18
 
 PikaPDF 0.5.0 is the PikaPDF branding and feature release for Windows x64 (formerly FastPDF through v0.4.1).
